@@ -4803,7 +4803,7 @@ dependencies = [
 
 [[package]]
 name = "wensi-ai-flow-desk"
-version = "0.1.0"
+version = "0.0.5"
 dependencies = [
  "futures-util",
  "reqwest 0.12.28",

@@ -1,11 +1,35 @@
+# Dependencies
 node_modules/
+
+# TypeScript / Node 构建与缓存
 build/
 dist/
 coverage/
-.DS_Store
-*.log
-.env*
+*.tsbuildinfo
+.vite/
+.turbo/
+.cache/
+*.local
+
+# Rust / Cargo（含 Tauri 编译与 bundle 输出）
+target/
+
+# 环境与密钥
+.env
+.env.*
 !.env.example
 
-# 构建产物（可选：若需提交安装包可移除此条）
+# 日志与调试
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 构建产物与安装包（若需提交安装包可移除此条）
 scripts/releases/
