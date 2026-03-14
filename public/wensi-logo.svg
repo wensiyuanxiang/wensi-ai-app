@@ -1,0 +1,32 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="24" y1="18" x2="168" y2="174" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#154E47"/>
+      <stop offset="1" stop-color="#79B7AB"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="56" y1="44" x2="136" y2="144" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1FFFC"/>
+      <stop offset="1" stop-color="#D8F6EF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="160" height="160" rx="40" fill="url(#bg2)"/>
+  <rect x="16" y="16" width="160" height="160" rx="40" stroke="#0E3934" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- "文" 的顶部点与横 -->
+  <circle cx="96" cy="50" r="5.5" fill="#E4FBF6"/>
+  <path d="M66 67H126" stroke="url(#ink)" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- "文" 的两撇捺骨架 -->
+  <path d="M96 74L72 122" stroke="#ECFFFB" stroke-width="9" stroke-linecap="round"/>
+  <path d="M96 74L124 126" stroke="#ECFFFB" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- “如流”语义：水滴 + 流线 -->
+  <circle cx="132" cy="84" r="4.8" fill="#D7F7F0"/>
+  <circle cx="141" cy="95" r="3.8" fill="#D7F7F0" fill-opacity="0.9"/>
+  <path d="M60 132C78 118 101 116 120 126C129 131 136 139 139 148" stroke="#DDFBF4" stroke-width="7.5" stroke-linecap="round"/>
+
+  <!-- 笔尖收束：对话最终落成文字 -->
+  <path d="M124 144L142 134L152 153L132 160L124 144Z" fill="#F3FFFC"/>
+  <path d="M133 147L142 143" stroke="#6AA89D" stroke-width="3" stroke-linecap="round"/>
+</svg>

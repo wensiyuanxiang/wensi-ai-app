@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# 构建产物（可选：若需提交安装包可移除此条）
+scripts/releases/

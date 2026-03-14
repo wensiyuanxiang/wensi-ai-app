@@ -1,0 +1,24 @@
+[package]
+name = "wensi-ai-flow-desk"
+version = "0.0.5"
+description = "文思AI写作 - 从想法到可发布内容"
+edition = "2021"
+rust-version = "1.70"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-shell = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.32", features = ["bundled"] }
+reqwest = { version = "0.12", features = ["json", "stream"] }
+tokio = { version = "1", features = ["full"] }
+futures-util = "0.3"
+uuid = { version = "1", features = ["v4", "serde"] }
+
+[features]
+default = []
+custom-protocol = ["tauri/custom-protocol"]
